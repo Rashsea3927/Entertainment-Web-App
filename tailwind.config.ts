@@ -20,6 +20,12 @@ export default {
       margin: {
         '18': '4.5rem',
       },
+      padding: {
+        '15': '3.75rem',
+      },
+      maxWidth: {
+        '3xl': '86rem',
+      },
       colors: {
         neutral: {
           '0': 'var(--neutral-0)',

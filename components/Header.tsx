@@ -13,7 +13,7 @@ const navItems = [
 
 const Header = () => {
   return (
-    <header className='w-full xs:mt-6 lg:mt-0 lg:w-24 lg:sticky lg:top-8 lg:bottom-8 lg:h-[calc(100vh-64px)] lg:ml-8'>
+    <header className='w-full xs:mt-6 lg:mt-0 lg:w-24 lg:sticky lg:top-8 lg:bottom-8 lg:h-[calc(100vh-64px)] lg:ml-8 lg:mr-9 3xl:ml-0'>
       <div className='grid grid-cols-[auto_1fr_auto] items-center p-4 bg-blue-800 xs:rounded-lg xs:mx-6 xs:p-6 lg:mx-0 lg:h-full lg:grid-cols-none lg:grid-rows-[auto_1fr_auto] lg:px-0 lg:py-9 lg:rounded-2xl'>
         <h1 className='lg:justify-self-center lg:mb-18'>
           <Image src={Logo} alt='logo' width={25} height={20} />

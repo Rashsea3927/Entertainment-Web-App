@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
+import SearchBox from '@/components/SearchBox';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,9 +15,12 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang='en'>
-      <body className={`bg-blue-900 antialiased min-h-[3000px] lg:flex lg:gap-9`}>
+      <body className='bg-blue-900 antialiased min-h-[3000px] lg:flex 3xl:mx-auto 3xl:max-w-3xl'>
         <Header />
-        {children}
+        <main className='pt-6 pb-15 xs:pt-8 xs:pb-14 lg:flex-1'>
+          <SearchBox />
+          {children}
+        </main>
       </body>
     </html>
   );
