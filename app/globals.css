@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neutral-0: #fff;
+  --blue-400: #5a698f;
+  --blue-800: #161d2f;
+  --blue-900: #10141e;
+  --red-500: #fc4747;
+}
