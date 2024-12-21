@@ -14,7 +14,7 @@ const EntertainmentInfo = ({
   return (
     <div className={cn('w-full', className)}>
       <div className='flex items-center mb-1'>
-        <span className='text-[12px] md:text-[15px] text-white/75 font-light'>2019・</span>
+        <span className='text-[12px] md:text-[15px] text-white/75 font-light'>{entertainment.year}・</span>
         <span className='flex items-center gap-[6px]'>
           {entertainment.type === 'movie' ? (
             <Image src={IconMovie} width={12} height={12} alt='' />
